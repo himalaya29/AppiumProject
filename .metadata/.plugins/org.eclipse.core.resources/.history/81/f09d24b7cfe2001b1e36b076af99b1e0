@@ -1,0 +1,16 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+
+public class Search {
+	
+	AppiumDriver<MobileElement> driver;
+	
+	By APP_PACKAGE_NAME = By.name("com.flipkart.android/com.flipkart");
+	By APP_PACKAGE_ACTIVITY = By.name("com.flipkart.android/com.flipkart.android.activity.HomeFragmentHolderActivity");
+	
+
+}

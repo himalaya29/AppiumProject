@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Selep</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/sel/ChildWindow.java</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Selenium/Program/ChildWindow.java</locationURI>
+		</link>
+		<link>
+			<name>src/sel/MouseHoverExample.java</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Selenium/Program/MouseHoverExample.java</locationURI>
+		</link>
+		<link>
+			<name>src/sel/MultiSelect.java</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Selenium/Program/MultiSelect.java</locationURI>
+		</link>
+		<link>
+			<name>src/sel/ScreenshotDemo.java</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Selenium/Program/ScreenshotDemo.java</locationURI>
+		</link>
+		<link>
+			<name>src/sel/TestAutoSuggest.java</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Selenium/Program/TestAutoSuggest.java</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

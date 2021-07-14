@@ -1,0 +1,21 @@
+package pages;
+
+import io.appium.java_client.AppiumDriver;
+
+public class AddToCart {
+AppiumDriver driver;
+	
+	public AddToCart(AppiumDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	public void addingToCart() {
+		driver.findElementByXPath("//android.widget.TextView[contains(@text,'ADD TO CART')]").click();
+	}
+	
+	public void skip_and_place() {
+		driver.findElementByXPath("//android.widget.TextView[contains(@text,'SKIP & GO TO CART')]").click();
+	}
+
+}

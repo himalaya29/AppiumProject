@@ -1,0 +1,21 @@
+package Jprac;
+
+public class Prac {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		Prac p = new Prac();
+		System.out.println("the number is"+p.sum(2,3));
+	}
+        
+        
+        public int sum(int a, int b) {
+        	int z = a+b;
+             return z;
+             
+        }
+ 
+      
+}
+

@@ -1,0 +1,28 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+
+public class Search {
+	
+	AppiumDriver<MobileElement> driver;
+	
+    @AndroidFindBy(className = "android.widget.TextView")
+    public AndroidElement searchbar;
+    @AndroidFindBy(id = "")
+    public AndroidElement searchclick;
+    
+
+    public void searchproduct(String address) {
+        searchbar.sendKeys("iphone");
+    }
+    public void searchbtn(String address) {
+    	searchclick.click();
+    }
+	
+
+}

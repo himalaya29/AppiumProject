@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-11T18:49:31 IST" name="Suite" finished-at="2021-07-11T18:50:05 IST" duration-ms="34130">
+    <groups>
+    </groups>
+    <test started-at="2021-07-11T18:49:31 IST" name="ChromeTest" finished-at="2021-07-11T18:49:58 IST" duration-ms="26513">
+      <class name="test.CrossBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.CrossBrowser@247d8ae]" started-at="2021-07-11T18:49:31 IST" name="setup" finished-at="2021-07-11T18:49:34 IST" duration-ms="2649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="demo1()[pri:0, instance:test.CrossBrowser@247d8ae]" started-at="2021-07-11T18:49:34 IST" name="demo1" finished-at="2021-07-11T18:49:58 IST" duration-ms="23810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+      </class> <!-- test.CrossBrowser -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2021-07-11T18:49:31 IST" name="FirefoxTest" finished-at="2021-07-11T18:50:05 IST" duration-ms="34130">
+      <class name="test.CrossBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.CrossBrowser@69e1dd28]" started-at="2021-07-11T18:49:31 IST" name="setup" finished-at="2021-07-11T18:49:39 IST" duration-ms="7255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="demo1()[pri:0, instance:test.CrossBrowser@69e1dd28]" started-at="2021-07-11T18:49:39 IST" name="demo1" finished-at="2021-07-11T18:50:05 IST" duration-ms="26867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+      </class> <!-- test.CrossBrowser -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

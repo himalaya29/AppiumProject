@@ -1,0 +1,38 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+
+public class Search {
+	
+AppiumDriver driver;
+	
+	public Search (AppiumDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+    public void productSearch()  {
+		
+    	driver.findElement(By.xpath("//android.widget.TextView[@text='Search for Products, Brands and More']")).click();
+    	Actions action = new Actions(driver);
+		action.sendKeys("iphone").perform();
+    
+		driver.findElementByXPath("(//*[@resource-id=\"com.flipkart.android:id/txt_title\"])[1]").click();
+		driver.findElementByXPath("(//android.view.ViewGroup)[1]").click();
+		
+    }
+    public void producttocartt() {
+		
+    	
+    	driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'ADD TO CART')]")).click();
+		
+    	driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'SKIP & GO TO CART')]")).click();
+    }
+
+}

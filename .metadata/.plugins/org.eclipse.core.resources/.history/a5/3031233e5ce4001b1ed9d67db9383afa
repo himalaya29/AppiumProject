@@ -1,0 +1,35 @@
+package pages;
+
+import io.appium.java_client.AppiumDriver;
+
+public class Product {
+AppiumDriver driver;
+	
+	public Product(AppiumDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	
+	
+	public void product() {
+		driver.findElement(By.xpath("//android.widget.TextView[@text='Search for Products, Brands and More']")).click();
+		Actions action = new Actions(driver);
+		action.sendKeys("iphone mobiles").perform();
+		}
+	
+	
+	public void product_select() {
+		
+		driver.findElementByXPath("(//*[@resource-id=\"com.flipkart.android:id/txt_title\"])[1]").click();
+		}
+	
+	
+	
+	public void product_select_finalize(){
+		
+		driver.findElementByXPath("(//android.view.ViewGroup)[1]").click();
+		}
+	
+
+}
